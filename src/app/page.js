@@ -1,5 +1,5 @@
 "use client";
-import { Navbar } from "@/components/Navbar";
+import { Toolbar } from "@/components/Toolbar";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -208,7 +208,7 @@ export default function Home() {
           rejects pleasures to secure other greater pleasures, or else he
           endures pains to avoid worse pains."
         </p>
-        <Navbar inView={inView}/>
+        <Toolbar inView={inView}/>
       </div>
       <footer ref={footerRef} className="w-full bg-zinc-100 h-32 flex items-center justify-center">
         Footer goes here

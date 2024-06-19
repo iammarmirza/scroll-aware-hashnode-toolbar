@@ -10,7 +10,7 @@ const ICONS = [
 
 ]
 
-export const Navbar = ({ inView }) => {
+export const Toolbar = ({ inView }) => {
     const [variant, setVariant] = useState("hidden")
 
     const { scrollY } = useScroll()
