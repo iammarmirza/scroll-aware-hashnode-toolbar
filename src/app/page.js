@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="relative pt-16 pb-32">
         <h1 className='font-semibold text-3xl text-center mb-8'>Generic Heading</h1>
-        <p className="w-[500px] mx-auto">
+        <p className="max-w-[500px] w-full  mx-auto">
           The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
