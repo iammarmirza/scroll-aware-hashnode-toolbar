@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative pt-16 pb-32">
+      <div className="relative pt-16 pb-32 mx-4">
         <h1 className='font-semibold text-3xl text-center mb-8'>Generic Heading</h1>
         <p className="max-w-[500px] w-full  mx-auto">
           The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum
